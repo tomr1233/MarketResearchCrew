@@ -1,0 +1,34 @@
+research_planning_task:
+    description: >
+      Develop a comprehensive market research plan about {research_topic}, including objectives, key questions, data sources, and methodologies.
+    expected_output: >
+      A detailed research plan document.
+    agent: research_planner
+
+data_collection_task:
+    description: >
+      Collect data from the specified sources as outlined in the research plan.
+    expected_output: >
+      A dataset compiled from various sources, cleaned and ready for analysis.
+    agent: data_collector
+
+data_analysis_task:
+    description: >
+      Analyze the collected data to answer the research questions and identify key insights.
+    expected_output: >
+      An analysis report with visualizations and key findings.
+    agent: data_analyst
+
+market_report_task:
+    description: >
+      Write a comprehensive market research report based on the analysis, including an executive summary, methodology, findings, and recommendations.
+    expected_output: >
+      A polished market research report.
+    agent: report_writer
+
+quality_check_task:
+    description: > 
+      Review the report for accuracy, clarity, and completeness, providing feedback and suggestions for improvement.
+    expected_output: >
+      A quality assurance report with recommendations.
+    agent: quality_checker
